@@ -3,10 +3,13 @@
 
 // we are going to need a classroom
 let classroom = []
-// we are going to need students
-let students = ["mother","asia",'lizzy']
 
+// we are going to need students
+let students = ["Tyler","Zion","Michael","Storm","Lindsey","Jordan","Curtrick",'lizzy']
+
+// this function takes a studentsArray and a classroomArray as parameters
 function addStudentsToClassroom(studentsArray,classroomArray){
+
     // each student should have a way to greet
     const greeting = 'Good morning, everyone, my name is '
 
@@ -33,6 +36,8 @@ function addStudentsToClassroom(studentsArray,classroomArray){
     // return the classroom
     return classroomArray
 }
-console.log(addStudentsToClassroom(students,classroom))
+
+//call the function and pass the array called students and the array called classroom as arguments to the function
+addStudentsToClassroom(students,classroom)
 
 
