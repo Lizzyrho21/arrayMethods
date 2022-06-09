@@ -15,6 +15,9 @@ function addStudentsToClassroom(studentsArray,classroomArray){
 
     // iterate over the students array 
     for (let index = 0; index < studentsArray.length; index++) {
+
+        //declare a variable that keeps the values of each student's name 
+        // so we dont have to use studentsArray[i] to keep up with the items in our array
         const student = studentsArray[index]
 
        // check if lizzy's name is in the student's array
